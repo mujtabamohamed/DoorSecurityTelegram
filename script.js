@@ -16,7 +16,7 @@ async function sendMessage(form) {
         });
         if (response.ok) {
             form.reset();
-            alert('Form sent!');
+            alert('Door opened!');
         }
         else{
             alert('Error');
